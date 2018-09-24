@@ -1,0 +1,18 @@
+root = true
+
+# use space for indenting in all files
+[*]
+indent_style = space
+
+[*.{xml,js,css,scss,html}]
+charset = utf-8
+indent_size = 2
+
+# use bom for config files as those are edited by VS when updating NuGets and that seems to be using BOM always
+[*.config]
+charset = utf-8-bom
+indent_size = 2
+
+[*.cs]
+charset = utf-8-bom
+indent_size = 4
